@@ -39,10 +39,14 @@ preserveTaxonomyNames = true
     url = "/about/"
     weight = 4
 
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
 [params]
     since = 2018
     author = "Syuan Shih"                           # Author's name
-    # avatar = "/images/me/avatar.jpeg"           # Author's avatar
+    avatar = "/avatar.png"           # Author's avatar
     subtitle = "Where theres a will theres a way."         # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
@@ -67,5 +71,4 @@ preserveTaxonomyNames = true
     # Telegram = "xxoo"
     # Dribbble = "xxoo"
     # Medium = "xxoo"
-
 
