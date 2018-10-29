@@ -105,6 +105,8 @@ hugo serve -D
 打開瀏覽器，輸入網址[http://localhost:1313/](http://localhost:1313/)，可看到如下畫面：
 ![Hugo網站創建完成](/18_10_29_github-pages-hugo/006.png)
 
+若要中止執行，在terminal按下`ctrl+C`即可。
+
 ## 第二部分：部署至Github上成為個人Github pages
 Github提供靜態網站的server，使用者可將靜態網站上傳上去，作為Github pages，一隻帳號僅有一個主頁，這個部分將操作部署剛剛創建好的Hugo網站至Github上。
 
