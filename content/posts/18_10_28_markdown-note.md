@@ -1,8 +1,8 @@
 ---
-title: "Markdown Note"
+title: "Markdown筆記"
 date: 2018-10-28T20:27:16+08:00
 draft: false
-categories: [Markdown]
+categories: [Text Editing/Blog/Github]
 tags: [Markdown]
 ---
 
