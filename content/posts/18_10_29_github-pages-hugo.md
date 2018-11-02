@@ -53,7 +53,7 @@ cd至該網站資料夾內，可看到內部資料夾結構如下：
 複製該主題的git網址，並使用git clone下載至`themes`資料夾中：
 ![複製git網址](/18_10_29_github-pages-hugo/004.png)
 
-cd至網站資料夾內的`themes`資料夾中：
+cd至剛Step3創建好Hugo網站根目錄下的`themes`資料夾中(預設目前路徑在Hugo網站根目錄下)：
 ```bash
 cd themes
 git clone [該主題git網址]
