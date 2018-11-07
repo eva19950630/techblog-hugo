@@ -9,7 +9,7 @@ tags: [Java]
 ## throw
 用於丟出一個異常物件。
 
-語法：寫於程式語句中(method內)。
+語法：寫於程式語句中。
 
 throw [例外物件變數];
 
@@ -18,7 +18,7 @@ throw [例外物件變數];
 ## throws
 用於宣告此method會丟出哪些Exception，表示此method可能會發生哪些例外，加s意指可以同時使用多個Exception子類別修飾方法。
 
-語法：寫於宣告method的後方。
+語法：寫於宣告method的地方。
 
 舉例：public void function() throws Exception {...}
 
