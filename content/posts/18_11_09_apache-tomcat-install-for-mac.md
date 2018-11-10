@@ -6,6 +6,9 @@ categories: [Java Web/Spring]
 tags: [Apache Tomcat Server]
 ---
 
+* Tomcat是一個能執行Servlet和JavaServer Page(JSP)的伺服器(Web Container)，並提供作為Web server的一些特有功能(Tomcat管理和控制平台、安全域管理與Tomcat閥等)。
+* Tomcat包含組態管理工具，使用xml格式設定檔進行組態。
+
 ## Download Apache Tomcat 8(Version 8.0.53)
 
 目前穩定版本，Release Data：2018/06/29。
@@ -86,12 +89,13 @@ $ /Library/Tomcat/bin/shutdown.sh
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
 <role rolename="manager-status"/>
-# [username]、[password]為自定帳號密碼
+<!--[username]、[password]為自定帳號密碼-->
 <user username="[username]" password="[password]" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-script,admin-gui"/>
 ```
 
-存檔後再start server，就可以使用`Server Status`、`Manager App`、`Host Manager`管理server了。
+存檔後再start server，就可以使用`Server Status`、`Manager App`、`Host Manager`管理Tomcat server了。
 
 ### Reference
 ---
 * http://tonytsai1984.blogspot.com/2016/09/mac-os-x-tomcat-9.html
+* https://zh.wikipedia.org/wiki/Apache_Tomcat
