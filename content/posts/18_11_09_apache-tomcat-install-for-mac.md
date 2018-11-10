@@ -14,7 +14,7 @@ tags: [Apache Tomcat Server]
 
 下載Version8.0.53的`.zip`或`.tar.gz`，下載後解壓縮出一個`apache-tomcat-8.0.53`的資料夾。
 
-![下載.zip或.tar.gz](/18_11_09_apache-tomcat-install/001.png)
+![下載.zip或.tar.gz](/18_11_09_apache-tomcat-install-for-mac/001.png)
 
 ## Start/Stop Apache Tomcat Server
 
@@ -56,7 +56,7 @@ $ /Library/Tomcat/bin/shutdown.sh
 
 開啟瀏覽器，網址輸入[http://localhost:8080](http://localhost:8080)，出現以下畫面即代表開啟服務成功。
 
-![開啟Tomcat Server](/18_11_09_apache-tomcat-install/002.png)
+![開啟Tomcat Server](/18_11_09_apache-tomcat-install-for-mac/002.png)
 
 `Tips`
 
