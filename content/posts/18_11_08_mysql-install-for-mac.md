@@ -36,7 +36,7 @@ $ echo $PATH
 
 ### 進入MySQL
 
-若MySQL下載5.7以上的版本，則安裝包一開始會設定好root初始的密碼(亂數，下載後需複製)。
+若MySQL下載5.7以上的版本，則安裝包一開始會設定好root初始的密碼(亂數，安裝完需複製)。
 
 ```bash
 # 若root沒有設定密碼
@@ -69,9 +69,31 @@ mysql> flush privileges;
 mysql> quit
 ```
 
-## Mac用介面化工具
+## Mac用介面化工具(Sequel Pro)
+
+### Step1：下載Sequel Pro
 
 * [Sequel Pro](https://www.sequelpro.com/)
+
+### Step2：開啟Sequel Pro.app，登入帳號密碼
+
+記得MySQL Server要開啟，帳號密碼輸入剛剛在terminal設定好的root帳號與密碼。
+
+![登入root帳號密碼](/18_11_08_mysql-install-for-mac/001.png)
+
+![新增帳號資訊至Favorites](/18_11_08_mysql-install-for-mac/002.png)
+
+### Step3：新增database與table
+
+* 新增database：上方工具列Database --> Add Database
+
+![新增database](/18_11_08_mysql-install-for-mac/003.png)
+
+* 新增table：左下角"＋"圖示
+
+![新增table](/18_11_08_mysql-install-for-mac/004.png)
+
+接下來就可以進行基本新增欄位等操作了，基本上類似phpmyadmin的使用方法。
 
 ### Reference
 ---
