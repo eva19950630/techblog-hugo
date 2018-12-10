@@ -86,6 +86,8 @@ hugo new posts/[post name].md   # [post name]為自定文章檔案名稱
 title: "[New Post]"   # [New Post]為自定文章標題
 date: 2018-10-29T11:06:37+08:00
 draft: false   # 原本為true，改為false
+categories: [Text Editing/Blog/Github]   # 文章分類
+tags: [Github, Hugo]   # 文章標籤集合(用,隔開)
 ---
 
 [此處可輸入文章內容]
@@ -137,7 +139,7 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
-`Hint`
+`Tips`
 
 有時候在操作`git push`指令時，系統常常會告訴你要設定好要push去哪個分支，產生類似以下的錯誤。
 
